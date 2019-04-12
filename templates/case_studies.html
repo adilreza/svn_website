@@ -1,0 +1,144 @@
+{% extends "layout/master2.html" %}
+
+
+{% load static %}
+
+{% block title%}
+	 Case Studies | Silicon Valley Nest
+{% endblock %}
+
+{%  block dynamic_page_content %}
+
+	<!--Page Title-->
+    <section class="page-title" style="background-image:url({% static 'siliconvalleynest/images/background/8.jpg' %})">
+    	<div class="auto-container">
+			<div class="content">
+				<h1>Case <span>studies</span></h1>
+				<ul class="page-breadcrumb">
+					<li><a href="{% url 'index' %}">Home</a></li>
+					<li>Pages</li>
+					<li>case studies</li>
+				</ul>
+			</div>
+        </div>
+    </section>
+    <!--End Page Title-->
+	
+	<!-- Case Section Three-->
+	<section class="case-section-three">
+		<div class="auto-container">
+			<!-- Sec Title -->
+			<div class="sec-title centered">
+				<div class="title">Case studies</div>
+				<h2>We are here to manage your <br> finance with <span>experience</span></h2>
+			</div>
+			<div class="row clearfix">
+				
+				<!-- Case Block -->
+				<div class="case-block-two col-lg-6 col-md-6 col-sm-12">
+					<div class="inner-box wow pulse" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="image-outer">
+							<div class="image">
+								<img src="{% static 'siliconvalleynest/images/resource/service-1.jpg' %}" alt="" />
+								<div class="overlay-box">
+									<a href="{% static 'siliconvalleynest/images/resource/service-1.jpg' %}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
+								</div>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="category">Investing</div>
+							<h4><a href="{% url 'blog_single' %}">Convention consulting Parliament on military action</a></h4>
+							<div class="text">This case study helps students understand the process of setting, reporting and eva uating financial performance.</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Case Block -->
+				<div class="case-block-two col-lg-6 col-md-6 col-sm-12">
+					<div class="inner-box wow pulse" data-wow-delay="300ms" data-wow-duration="1500ms">
+						<div class="image-outer">
+							<div class="image">
+								<img src="{% static 'siliconvalleynest/images/resource/service-1.jpg' %}" alt="" />
+								<div class="overlay-box">
+									<a href="{% static 'siliconvalleynest/images/resource/service-1.jpg' %}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
+								</div>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="category">Investing</div>
+							<h4><a href="{% url 'blog_single' %}">Duis aute irure dolor reprehenderit in voluptate velit</a></h4>
+							<div class="text">This case study helps students understand the process of setting, reporting and eva uating financial performance.</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Case Block -->
+				<div class="case-block-two col-lg-6 col-md-6 col-sm-12">
+					<div class="inner-box wow pulse" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="image-outer">
+							<div class="image">
+								<img src="{% static 'siliconvalleynest/images/resource/service-1.jpg' %}" alt="" />
+								<div class="overlay-box">
+									<a href="{% static 'siliconvalleynest/images/resource/service-1.jpg' %}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
+								</div>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="category">Investing</div>
+							<h4><a href="{% url 'blog_single' %}">Dolore eud fugiat nulla pariatur proven excepteur sint ocaec atus</a></h4>
+							<div class="text">This case study helps students understand the process of setting, reporting and eva uating financial performance.</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Case Block -->
+				<div class="case-block-two col-lg-6 col-md-6 col-sm-12">
+					<div class="inner-box wow pulse" data-wow-delay="300ms" data-wow-duration="1500ms">
+						<div class="image-outer">
+							<div class="image">
+								<img src="{% static 'siliconvalleynest/images/resource/service-1.jpg' %}" alt="" />
+								<div class="overlay-box">
+									<a href="{% static 'siliconvalleynest/images/resource/service-1.jpg' %}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
+								</div>
+							</div>
+						</div>
+						<div class="lower-content">
+							<div class="category">Investing</div>
+							<h4><a href="{% url 'blog_single' %}">consectetur adipisicing elit, sed do tikm eiusmod </a></h4>
+							<div class="text">This case study helps students understand the process of setting, reporting and eva uating financial performance.</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<!--Styled Pagination-->
+            <ul class="styled-pagination text-center">
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+                <li class="next"><a href="#"><span class="fa fa-angle-double-right"></span></a></li>
+            </ul>                
+            <!--End Styled Pagination-->
+			
+		</div>
+	</section>
+	<!-- End Case Section Three-->
+	
+	<!-- Call To Action Two -->
+	<section class="call-to-action-two">
+		<div class="auto-container">
+			<div class="clearfix">
+				
+				<div class="pull-left">
+					<h2>Request for <span>quote</span></h2>
+				</div>
+				<div class="pull-right">
+					<a href="{% url 'contact_us' %}" class="theme-btn btn-style-five">Request now <span class="icon fa fa-arrow-right"></span></a>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Call To Action Two -->
+{% endblock %}

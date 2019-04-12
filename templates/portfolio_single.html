@@ -1,0 +1,124 @@
+{% extends "layout/master2.html" %}
+
+
+{% load static %}
+
+{% block title%}
+ Portfolio Single | Silicon Valley Nest
+{% endblock %}
+
+{%  block dynamic_page_content %}
+	<!--Page Title-->
+    <section class="page-title" style="background-image:url({% static 'siliconvalleynest/images/background/8.jpg' %})">
+    	<div class="auto-container">
+			<div class="content">
+				<h1>Portfolio <span>single</span></h1>
+				<ul class="page-breadcrumb">
+					<li><a href="{% url 'index' %}">Home</a></li>
+					<li>portfolio</li>
+					<li>portfolio single</li>
+				</ul>
+			</div>
+        </div>
+    </section>
+    <!--End Page Title-->
+	
+	<!-- Portfolio Single Section -->
+	<section class="portfolio-single-section">
+		<div class="auto-container">
+			<!-- Sec Title -->
+			<div class="sec-title centered">
+				<div class="title">Portfolio</div>
+				<h2>We are very happy for our <br> Project <span>done</span></h2>
+			</div>
+			
+			<div class="row clearfix">
+			
+				<!-- Image Column -->
+				<div class="image-column col-lg-7 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="image">
+							<img src="{% static 'siliconvalleynest/images/gallery/30.jpg' %}" alt="" />
+						</div>
+					</div>
+				</div>
+				
+				<!-- Content Column -->
+				<div class="content-column col-lg-5 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<h3>Financial Analysis</h3>
+						<div class="text">
+							<p>Dut perspiciatis unde omnis iste natus error sit voluptatems accusantium doloremqu laudantiums ut, totams se aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae duis autems vell eums iriure dolors in hendrerit saep.</p>
+							<p>Eveniet in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at seds eros sed et accumsan et iusto odio dignissim. Temporibus autem quibusdam et aut officiis.</p>
+						</div>
+						<ul class="project-list">
+							<li><span class="icon fa fa-tag"></span> <strong>Category: </strong>Strategy</li>
+							<li><span class="icon fa fa-user"></span> <strong>Client: </strong>Real Madrid C.F</li>
+							<li><span class="icon fa fa-calendar"></span> <strong>Date: </strong>24/11/2017</li>
+							<li><span class="icon fa fa-external-link"></span> <strong>Website: </strong>www.madridista.esp</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+			
+			<!-- Lower Section -->
+			<div class="lower-section">
+				<div class="row clearfix">
+						
+					<!-- Project Block -->
+					<div class="project-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<img src="{% static 'siliconvalleynest/images/gallery/8.jpg' %}" alt="" />
+								<div class="overlay-box">
+									<a href="{% static 'siliconvalleynest/images/gallery/8.jpg' %}" data-fancybox="gallery-2" data-caption="" class="plus flaticon-plus-symbol"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h5><a href="{% url 'portfolio_single' %}">Business Management</a></h5>
+								<div class="designation">Sustainability</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block -->
+					<div class="project-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<img src="{% static 'siliconvalleynest/images/gallery/9.jpg' %}" alt="" />
+								<div class="overlay-box">
+									<a href="{% static 'siliconvalleynest/images/gallery/9.jpg' %}" data-fancybox="gallery-2" data-caption="" class="plus flaticon-plus-symbol"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h5><a href="{% url 'portfolio_single' %}">Digital Analysis</a></h5>
+								<div class="designation">Strategy</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block -->
+					<div class="project-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<img src="{% static 'siliconvalleynest/images/gallery/10.jpg' %}" alt="" />
+								<div class="overlay-box">
+									<a href="{% static 'siliconvalleynest/images/gallery/10.jpg' %}" data-fancybox="gallery-2" data-caption="" class="plus flaticon-plus-symbol"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h5><a href="{% url 'portfolio_single' %}">Fund Management</a></h5>
+								<div class="designation">Sustainability</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<!-- End Portfolio Single Section -->
+
+{% endblock %}

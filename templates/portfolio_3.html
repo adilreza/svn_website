@@ -1,0 +1,211 @@
+{% extends "layout/master2.html" %}
+
+
+{% load static %}
+
+{% block title%}
+ Portfolio Three | Silicon Valley Nest
+{% endblock %}
+
+{%  block dynamic_page_content %}
+
+	<!--Page Title-->
+    <section class="page-title" style="background-image:url({% static 'siliconvalleynest/images/background/8.jpg' %})">
+    	<div class="auto-container">
+			<div class="content">
+				<h1>Portfolio <span>3 Col</span></h1>
+				<ul class="page-breadcrumb">
+					<li><a href="{% url 'index' %}">Home</a></li>
+					<li>portfolio</li>
+					<li>portfolio 3 col</li>
+				</ul>
+			</div>
+        </div>
+    </section>
+    <!--End Page Title-->
+	
+	<!-- Portfolio Section Three-->
+	<section class="portfolio-section-three">
+		<div class="auto-container">
+			<!-- Sec Title -->
+			<div class="sec-title centered">
+				<div class="title">Portfolio</div>
+				<h2>We are very happy for our <br> Project <span>done</span></h2>
+			</div>
+			
+			<!--MixitUp Galery-->
+            <div class="mixitup-gallery">
+                
+                <!--Filter-->
+                <div class="filters clearfix">
+                	
+                	<ul class="filter-tabs filter-btns text-center clearfix">
+                        <li class="active filter" data-role="button" data-filter="all">All</li>
+                        <li class="filter" data-role="button" data-filter=".business">Business</li>
+                        <li class="filter" data-role="button" data-filter=".consulting">Consulting</li>
+                        <li class="filter" data-role="button" data-filter=".insurance">Insurance</li>
+                        <li class="filter" data-role="button" data-filter=".finance">Finance</li>
+						<li class="filter" data-role="button" data-filter=".others">Others</li>
+                    </ul>
+                    
+                </div>
+                
+                <div class="filter-list row clearfix">
+					
+					<!-- Project Block -->
+					<div class="project-block mix finance col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<img src="{% static 'silconvalleynest/images/gallery/8.jpg' %}" alt="" />
+								<div class="overlay-box">
+									<a href="{% static 'silconvalleynest/images/gallery/8.jpg' %}" data-fancybox="gallery-2" data-caption="" class="plus flaticon-plus-symbol"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h5><a href="{% url 'portfolio_single' %}">Business Management</a></h5>
+								<div class="designation">Sustainability</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block -->
+					<div class="project-block mix consulting others business col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<img src="{% static 'silconvalleynest/images/gallery/9.jpg' %}" alt="" />
+								<div class="overlay-box">
+									<a href="{% static 'silconvalleynest/images/gallery/9.jpg' %}" data-fancybox="gallery-2" data-caption="" class="plus flaticon-plus-symbol"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h5><a href="{% url 'portfolio_single' %}">Digital Analysis</a></h5>
+								<div class="designation">Strategy</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block -->
+					<div class="project-block mix business insurance col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<img src="{% static 'siliconvalleynest/images/gallery/10.jpg' %}" alt="" />
+								<div class="overlay-box">
+									<a href="{% static 'siliconvalleynest/images/gallery/10.jpg' %}" data-fancybox="gallery-2" data-caption="" class="plus flaticon-plus-symbol"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h5><a href="{% url 'portfolio_single' %}">Fund Management</a></h5>
+								<div class="designation">Sustainability</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block -->
+					<div class="project-block mix finance consulting col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<img src="{% static 'siliconvalleynest/images/gallery/11.jpg' %}" alt="" />
+								<div class="overlay-box">
+									<a href="{% static 'siliconvalleynest/images/gallery/11.jpg' %}" data-fancybox="gallery-2" data-caption="" class="plus flaticon-plus-symbol"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h5><a href="{% url 'portfolio_single' %}">Data Analytics</a></h5>
+								<div class="designation">Marketing</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block -->
+					<div class="project-block mix finance insurance col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<img src="{% static 'siliconvalleynest/images/gallery/12.jpg' %}" alt="" />
+								<div class="overlay-box">
+									<a href="{% static 'siliconvalleynest/images/gallery/12.jpg' %}" data-fancybox="gallery-2" data-caption="" class="plus flaticon-plus-symbol"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h5><a href="{% url 'portfolio_single' %}">Revenue Growth</a></h5>
+								<div class="designation">Sustainability</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block -->
+					<div class="project-block mix others insurance business col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<img src="{% static 'siliconvalleynest/images/gallery/13.jpg' %}" alt="" />
+								<div class="overlay-box">
+									<a href="{% static 'siliconvalleynest/images/gallery/13.jpg' %}" data-fancybox="gallery-2" data-caption="" class="plus flaticon-plus-symbol"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h5><a href="{% url 'portfolio_single' %}">Market Expansion</a></h5>
+								<div class="designation">Sustainability</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block -->
+					<div class="project-block mix others insurance business col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<img src="{% static 'siliconvalleynest/images/gallery/14.jpg' %}" alt="" />
+								<div class="overlay-box">
+									<a href="{% static 'siliconvalleynest/images/gallery/14.jpg' %}" data-fancybox="gallery-2" data-caption="" class="plus flaticon-plus-symbol"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h5><a href="{% url 'portfolio_single' %}">Audit and Evaluation</a></h5>
+								<div class="designation">Sustainability</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block -->
+					<div class="project-block mix others insurance business col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<img src="{% static 'siliconvalleynest/images/gallery/15.jpg' %}" alt="" />
+								<div class="overlay-box">
+									<a href="{% static 'siliconvalleynest/images/gallery/15.jpg' %}" data-fancybox="gallery-2" data-caption="" class="plus flaticon-plus-symbol"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h5><a href="{% url 'portfolio_single' %}">Consumer Products</a></h5>
+								<div class="designation">Finance</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block -->
+					<div class="project-block mix others insurance business col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<img src="{% static 'siliconvalleynest/images/gallery/16.jpg' %}" alt="" />
+								<div class="overlay-box">
+									<a href="{% static 'siliconvalleynest/images/gallery/16.jpg' %}" data-fancybox="gallery-2" data-caption="" class="plus flaticon-plus-symbol"></a>
+								</div>
+							</div>
+							<div class="lower-content">
+								<h5><a href="{% url 'portfolio_single' %}">Financial Analysis</a></h5>
+								<div class="designation">Sustainability</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+			<!-- Button Box -->
+			<div class="button-box text-center">
+				<a href="#" class="theme-btn btn-style-fifteen">Load more</a>
+			</div>
+			
+		</div>
+	</section>
+	<!-- End Case Section Three-->
+
+{% endblock %}

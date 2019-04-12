@@ -1,0 +1,386 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{% block title %} {% endblock %}</title>
+<!-- Stylesheets -->
+<link href="{% static 'siliconvalleynest/css/bootstrap.css' %}" rel="stylesheet">
+<link href="{% static 'siliconvalleynest/css/style.css' %}" rel="stylesheet">
+<link href="{% static 'siliconvalleynest/css/responsive.css' %}" rel="stylesheet">
+<link href="{% static 'siliconvalleynest/otherscss/zesto_footer.css' %}" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="{% static 'siliconvalleynest/otherscss/themify/themify-icons.css' %}">
+
+<link rel="shortcut icon" href="{% static 'siliconvalleynest/images/favicon.png' %}" type="image/x-icon">
+<link rel="icon" href="{% static 'siliconvalleynest/images/favicon.png' %}" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper">
+ 	
+    <!-- Preloader -->
+    <div class="preloader"></div>
+ 	
+    <!-- Main Header-->
+    <header class="main-header header-style-three">
+    	
+    	<!--Header-Upper-->
+        <div class="header-upper">
+        	<div class="auto-container">
+            	<div class="clearfix">
+                	
+                	<div class="pull-left logo-box">
+                    	<div class="logo"><a href="{% url 'index' %}"><img src="{% static 'siliconvalleynest/images/logo3.png' %}" alt="" title=""></a></div>
+                    </div>
+                   	
+                   	<div class="nav-outer clearfix">
+                    
+						<!-- Main Menu -->
+						<nav class="main-menu navbar-expand-md">
+							<div class="navbar-header">
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+								<ul class="navigation clearfix">
+									<li class="current"><a href="{% url 'index' %}">Home</a>
+										
+									</li>
+									<li class="dropdown"><a href="#">About Us</a>
+										<ul>
+											<li><a href="{% url 'about_us' %}">About Us</a></li>
+											<li><a href="{% url 'team' %}">Our Team</a></li>
+											<li><a href="{% url 'case_studies' %}">Case Studies</a></li>
+											<li><a href="{% url 'testimonial' %}">Testimonial</a></li>
+											<li><a href="{% url 'error' %}">Error Page</a></li>
+										</ul>
+									</li>
+									<li class="dropdown"><a href="#">Services</a>
+										<ul>
+											<li><a href="{% url 'services' %}">Services</a></li>
+											<li><a href="{% url 'services_2' %}">Services Two</a></li>
+											<li><a href="{% url 'services_single' %}">Services Single</a></li>
+										</ul>
+									</li>
+									<li class="dropdown"><a href="#">Portfolio</a>
+										<ul>
+											<li><a href="{% url 'portfolio_2' %}">Portfolio Two Column</a></li>
+											<li><a href="{% url 'portfolio_3' %}">Portfolio Three Column</a></li>
+											<li><a href="{% url 'portfolio_4' %}">Portfolio Four Column</a></li>
+											<li><a href="{% url 'portfolio_masonry' %}">Portfolio Masonry</a></li>
+											<li><a href="{% url 'portfolio_single' %}">Portfolio Single</a></li>
+										</ul>
+									</li>
+									<li class="dropdown"><a href="#">Blog</a>
+										<ul>
+											<li><a href="{% url 'blog' %}">Our Blog</a></li>
+											<li><a href="{% url 'blog_list' %}">Blog List</a></li>
+											<li><a href="{% url 'blog_single' %}">Blog Single</a></li>
+										</ul>
+									</li>
+									<li><a href="{% url 'contact_us' %}">Contact us</a></li>
+								</ul>
+							</div>
+							
+						</nav>
+						
+						<div class="outer-box">
+							<!--Nav Toggler-->
+							<div class="nav-toggler"><span class="flaticon-menu"></span></div>
+						</div>
+						
+					</div>
+					
+                </div>
+            </div>
+        </div>
+        <!--End Header Upper-->
+        
+		<!--Sticky Header-->
+        <div class="sticky-header">
+        	<div class="auto-container clearfix">
+            	<!--Logo-->
+            	<div class="logo pull-left">
+                	<a href="{% url 'index' %}" class="img-responsive"><img src="{% static 'siliconvalleynest/images/logosmall.png' %}" alt="" title=""></a>
+                </div>
+                
+                <!--Right Col-->
+                <div class="right-col pull-right">
+                	<!-- Main Menu -->
+                    <nav class="main-menu navbar-expand-md">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        
+                        <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
+                            <ul class="navigation clearfix">
+                                <li class="current"><a href="{% url 'index' %}">Home</a>
+
+								</li>
+								<li class="dropdown"><a href="#">About Us</a>
+									<ul>
+										<li><a href="{% url 'about_us' %}">About Us</a></li>
+										<li><a href="{% url 'team' %}">Our Team</a></li>
+										<li><a href="{% url 'case_studies' %}">Case Studies</a></li>
+										<li><a href="{% url 'testimonial' %}">Testimonial</a></li>
+										<li><a href="{% url 'error' %}">Error Page</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#">Services</a>
+									<ul>
+										<li><a href="{% url 'services' %}">Services</a></li>
+										<li><a href="{% url 'services_2' %}">Services Two</a></li>
+										<li><a href="{% url 'services_single' %}">Services Single</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#">Portfolio</a>
+									<ul>
+										<li><a href="{% url 'portfolio_2' %}">Portfolio Two Column</a></li>
+										<li><a href="{% url 'portfolio_3' %}">Portfolio Three Column</a></li>
+										<li><a href="{% url 'portfolio_4' %}">Portfolio Four Column</a></li>
+										<li><a href="{% url 'portfolio_masonry' %}">Portfolio Masonry</a></li>
+										<li><a href="{% url 'portfolio_single' %}">Portfolio Single</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#">Blog</a>
+									<ul>
+										<li><a href="{% url 'blog' %}">Our Blog</a></li>
+										<li><a href="{% url 'blog_list' %}">Blog List</a></li>
+										<li><a href="{% url 'blog_single' %}">Blog Single</a></li>
+									</ul>
+								</li>
+								<li><a href="{% url 'contact_us' %}">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </nav><!-- Main Menu End-->
+                </div>
+                
+            </div>
+        </div>
+        <!--End Sticky Header-->
+		
+    </header>
+    <!--End Main Header -->
+
+    {% block dynamic_content_page %}
+    
+    {% endblock %}
+
+
+
+
+
+	
+
+	
+	<!--Main Footer-->
+	 <footer class="daz-footer">
+        <div class="footer-top" style="background-image:url({% static 'siliconvalleynest/svn_boss_images/svn_footer.png' %})">
+            <div class="container">
+                <div class="row">
+					<div class="col-md-6 col-5 col-xl-3 col-lg-4 col-sm-6 footer-col-4 col-12">
+                        <div class="widget border-0">
+                            <h4 class="m-b10 text-white">Company</h4>
+							<div class="separator separat-line bg-white w3"></div>
+							<ul class="list-2">
+                                <li><a href="{% url 'index' %}">Home</a></li>
+                                <li><a href="{% url 'about_us' %}">About us </a></li>
+                                
+								<li><a href="{% url 'portfolio_2' %}">Portfolio</a></li>
+                                <li><a href="{% url 'contact_us' %}">Contact Us</a></li>
+                                <li><a href="{% url 'blog' %}">Blogs</a></li>
+                                <li><a href="{% url 'testimonial' %}">Testimonials</a></li>
+                             
+								<li><a href="{% url 'portfolio_3' %}">Portfolio</a></li>
+                                <li><a href="{% url 'contact_us' %}">Contact Us</a></li>
+                                <li><a href="{% url 'blog' %}">Blogs</a></li>
+                                <li><a href="{% url 'testimonial' %}">Testimonials</a></li>
+                            </ul>
+                        </div>
+                    </div>
+					<div class="col-md-6 col-xl-3 col-lg-4 col-sm-6 footer-col-4 col-12">
+						<h4 class="m-b10 text-white">Company</h4>
+						<div class="separator separat-line bg-white w3"></div>
+                        <div class="widget recent-posts-entry">
+							<div class="widget-post-bx">
+								<div class="widget-post clearfix">
+									<div class="post-media"> <img src="{% static 'siliconvalleynest/images/company_svn/pic1.jpg' %}" alt="" width="200" height="143"> </div>
+									<div class="post-info">
+										<div class="post-header">
+											<h6 class="post-title"><a href="#">US Stocks Are Expensive</a></h6>
+										</div>
+										<div class="post-meta">
+											<ul>
+												<li class="post-author">By Jone</li>
+												<li class="post-comment"><i class="ti-comment-alt"></i> 28</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="widget-post clearfix">
+									<div class="post-media"> <img src="{% static 'siliconvalleynest/images/company_svn/pic1.jpg' %}" alt="" width="200" height="160"> </div>
+									<div class="post-info">
+										<div class="post-header">
+											<h6 class="post-title"><a href="#">US Stocks Are Expensive</a></h6>
+										</div>
+										<div class="post-meta">
+											<ul>
+												<li class="post-author">By Jone</li>
+												<li class="post-comment"><i class="ti-comment-alt"></i> 28</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="widget-post clearfix">
+									<div class="post-media"> <img src="{% static 'siliconvalleynest/images/company_svn/pic1.jpg' %}" alt="" width="200" height="160"> </div>
+									<div class="post-info">
+										<div class="post-header">
+											<h6 class="post-title"><a href="#">US Stocks Are Expensive</a></h6>
+										</div>
+										<div class="post-meta">
+											<ul>
+												<li class="post-author">By Jone</li>
+												<li class="post-comment"><i class="ti-comment-alt"></i> 28</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                    </div>
+					<div class="col-md-6 col-xl-3 col-lg-4 col-sm-6 footer-col-4  col-12">
+                        <div class="widget widget_getintuch">
+                            <h4 class="m-b10 text-white ">Contact us</h4>
+							<div class="separator separat-line bg-white w3"></div>
+                            <ul>
+                                <li><i class="ti-location-pin"></i><strong>address</strong> Demo Address #05A Mahesh Nagar Dummy Road, United Kingdom </li>
+                                <li><i class="ti-mobile"></i><strong>phone</strong>0123-001234 (24/7 Support Line)</li>
+								<li><i class="ti-email"></i><strong>email</strong>info@example.com</li>
+								<li><i class="ti-email"></i><strong>Fax</strong>0800-123456</li>
+                            </ul>
+                        </div>
+                    </div>
+					<div class="col-md-6 col-lg-3 col-sm-6 footer-col-4 d-lg-none d-xl-block  col-12">
+                        <div class="widget widget_gallery gallery-grid-4">
+                            <h4 class="m-b10 text-white">Gallery</h4>
+							<div class="separator separat-line bg-white w3"></div>
+                            <ul>
+                                <li class="img-effect2"> <a href="javascript:void(0);"><img src="{%static 'siliconvalleynest/images/footer_image/pic1.jpg'%}" alt=""></a> </li>
+                                <li class="img-effect2"> <a href="javascript:void(0);"><img src="{%static 'siliconvalleynest/images/footer_image/pic1.jpg'%}" alt=""></a> </li>
+                                <li class="img-effect2"> <a href="javascript:void(0);"><img src="{%static 'siliconvalleynest/images/footer_image/pic1.jpg'%}" alt=""></a> </li>
+                                <li class="img-effect2"> <a href="javascript:void(0);"><img src="{%static 'siliconvalleynest/images/footer_image/pic1.jpg'%}" alt=""></a> </li>
+                                <li class="img-effect2"> <a href="javascript:void(0);"><img src="{%static 'siliconvalleynest/images/footer_image/pic1.jpg'%}" alt=""></a> </li>
+                                <li class="img-effect2"> <a href="javascript:void(0);"><img src="{%static 'siliconvalleynest/images/footer_image/pic1.jpg'%}" alt=""></a> </li>
+								<li class="img-effect2"> <a href="javascript:void(0);"><img src="{%static 'siliconvalleynest/images/footer_image/pic1.jpg'%}" alt=""></a> </li>
+                                <li class="img-effect2"> <a href="javascript:void(0);"><img src="{%static 'siliconvalleynest/images/footer_image/pic1.jpg'%}" alt=""></a> </li>
+                                <li class="img-effect2"> <a href="javascript:void(0);"><img src="{%static 'siliconvalleynest/images/footer_image/pic1.jpg'%}" alt=""></a> </li>
+								<li class="img-effect2"> <a href="javascript:void(0);"><img src="{%static 'siliconvalleynest/images/footer_image/pic1.jpg'%}" alt=""></a> </li>
+                                <li class="img-effect2"> <a href="javascript:void(0);"><img src="{%static 'siliconvalleynest/images/footer_image/pic1.jpg'%}" alt=""></a> </li>
+                                <li class="img-effect2"> <a href="javascript:void(0);"><img src="{%static 'siliconvalleynest/images/footer_image/pic1.jpg'%}" alt=""></a> </li>
+								<li class="img-effect2"> <a href="javascript:void(0);"><img src="{%static 'siliconvalleynest/images/footer_image/pic1.jpg'%}" alt=""></a> </li>
+                                <li class="img-effect2"> <a href="javascript:void(0);"><img src="{%static 'siliconvalleynest/images/footer_image/pic1.jpg'%}" alt=""></a> </li>
+                                <li class="img-effect2"> <a href="javascript:void(0);"><img src="{%static 'siliconvalleynest/images/footer_image/pic1.jpg'%}" alt=""></a> </li>
+								<li class="img-effect2"> <a href="javascript:void(0);"><img src="{%static 'siliconvalleynest/images/footer_image/pic1.jpg'%}" alt=""></a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				<div class="divider bg-gray-dark tb10 op1"><i class="icon-dot c-square"></i></div>
+				<div class="row m-t30">
+					<div class="col-md-6 col-xl-6 col-lg-6 col-sm-12 footer-col-4 m-b15">
+						<h4 class=" text-white">Flows Us</h4>
+						<ul class="list-inline m-a0">
+							<li><a href="#" class="site-button facebook circle "><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" class="site-button google-plus circle "><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#" class="site-button linkedin circle "><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="#" class="site-button instagram circle "><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" class="site-button twitter circle "><i class="fa fa-twitter"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-md-6 col-xl-6 col-lg-6 col-sm-12 footer-col-4">
+                        <div class="widget">
+                            <h4 class="m-b15 text-white">Subscribe To Our Newsletter</h4>
+							<div class="subscribe-form m-b20">
+								<form class="dazSubscribe" action="script/mailchamp.php" method="post">
+									<div class="dazSubscribeMsg"></div>
+									<div class="input-group">
+										<input name="dzEmail" required="required"  class="form-control" placeholder="Your Email Address" type="email">
+										<span class="input-group-btn">
+											<button name="submit" value="Submit" type="submit" class="site-button white radius-xl">Subscribe</button>
+										</span> 
+									</div>
+								</form>
+							</div>
+							
+                        </div>
+                    </div>
+				</div>
+            </div>
+        </div>
+        <!-- footer bottom part -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 text-left "> <span>Copyright © 2018 DazzlerSoft</span> </div>
+                    <div class="col-md-6 col-sm-6 text-right "> 
+						<div class="widget-link "> 
+							<ul>
+								<li><a href="help-desk.html"> Help Desk</a></li> 
+								<li><a href="privacy-policy.html"> Privacy Policy</a></li> 
+							</ul>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+   
+	
+</div>
+
+<!--End pagewrapper-->
+<script src="{% static 'siliconvalleynest/js/jquery.js' %}"></script>
+<script src="{% static 'siliconvalleynest/js/popper.min.js' %}"></script>
+<script src="{% static 'siliconvalleynest/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'siliconvalleynest/js/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+<script src="{% static 'siliconvalleynest/js/jquery.fancybox.js' %}"></script>
+<script src="{% static 'siliconvalleynest/js/appear.js' %}"></script>
+<script src="{% static 'siliconvalleynest/js/owl.js' %}"></script>
+<script src="{% static 'siliconvalleynest/js/wow.js' %}"></script>
+<script src="{% static 'siliconvalleynest/js/jquery-ui.js' %}"></script>
+<script src="{% static 'siliconvalleynest/js/main.js' %}"></script>
+<!--Google Map APi Key-->
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyDTPlX-43R1TpcQUyWjFgiSfL_BiGxslZU"></script>
+<script src="{% static 'siliconvalleynest/js/map-script.js"></script>
+<!--End Google Map APi-->
+
+</body>
+</html>

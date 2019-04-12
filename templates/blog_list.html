@@ -1,0 +1,187 @@
+{% extends "layout/master2.html" %}
+
+
+{% load static %}
+
+{% block title%}
+ Blog List | Silicon Valley Nest
+{% endblock %}
+
+
+{%  block dynamic_page_content %}
+	<!--Page Title-->
+    <section class="page-title" style="background-image:url({% static 'siliconvalleynest/images/background/8.jpg' %})">
+    	<div class="auto-container">
+			<div class="content">
+				<h1>Blog <span>List</span></h1>
+				<ul class="page-breadcrumb">
+					<li><a href="{% url 'index' %}">Home</a></li>
+					<li>Blog List</li>
+				</ul>
+			</div>
+        </div>
+    </section>
+    <!--End Page Title-->
+	
+	<!-- Blog List Section -->
+	<section class="blog-list-section">
+		<div class="auto-container">
+			<!-- Sec Title -->
+			<div class="sec-title centered">
+				<div class="title">Blog list</div>
+				<h2>We are here to manage your <br> finance with <span>experience</span></h2>
+			</div>
+			<div class="row clearfix">
+				
+				<!-- News Block Four -->
+				<div class="news-block-four col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image">
+							<img src="{% static 'siliconvalleynest/images/resource/news-4.jpg' %}" alt="" />
+							<div class="overlay-box">
+								<a href="{% static 'siliconvalleynest/images/resource/news-4.jpg' %}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
+							</div>
+						</div>
+						<div class="lower-content">
+							<ul class="post-meta">
+								<li><span class="fa fa-calendar"></span>September 12, 2019</li>
+								<li><span class="fa fa-user"></span>Admin</li>
+							</ul>
+							<h5><a href="{% url 'blog_single' %}">Strategy for Norway's Peion Fund Global.</a></h5>
+							<a href="#" class="theme-btn btn-style-eighteen">View more</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block Four -->
+				<div class="news-block-four col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image">
+							<img src="{% static 'siliconvalleynest/images/resource/news-5.jpg' %}" alt="" />
+							<div class="overlay-box">
+								<a href="{% static 'siliconvalleynest/images/resource/news-5.jpg' %}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
+							</div>
+						</div>
+						<div class="lower-content">
+							<ul class="post-meta">
+								<li><span class="fa fa-calendar"></span>September 12, 2019</li>
+								<li><span class="fa fa-user"></span>Admin</li>
+							</ul>
+							<h5><a href="{% url 'blog_single' %}">What we are capable of usually gets discovered.</a></h5>
+							<a href="#" class="theme-btn btn-style-eighteen">View more</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block Four -->
+				<div class="news-block-four col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image">
+							<img src="{% static 'siliconvalleynest/images/resource/news-6.jpg' %}" alt="" />
+							<div class="overlay-box">
+								<a href="{% static 'siliconvalleynest/images/resource/news-6.jpg' %}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
+							</div>
+						</div>
+						<div class="lower-content">
+							<ul class="post-meta">
+								<li><span class="fa fa-calendar"></span>September 12, 2019</li>
+								<li><span class="fa fa-user"></span>Admin</li>
+							</ul>
+							<h5><a href="{% url 'blog_single' %}">Food industry leaders often change their promoters.</a></h5>
+							<a href="#" class="theme-btn btn-style-eighteen">View more</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block Four -->
+				<div class="news-block-four col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image">
+							<img src="{% static 'siliconvalleynest/images/resource/news-5.jpg' %}" alt="" />
+							<div class="overlay-box">
+								<a href="{% static 'siliconvalleynest/images/resource/news-5.jpg' %}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
+							</div>
+						</div>
+						<div class="lower-content">
+							<ul class="post-meta">
+								<li><span class="fa fa-calendar"></span>September 12, 2019</li>
+								<li><span class="fa fa-user"></span>Admin</li>
+							</ul>
+							<h5><a href="{% url 'blog_single' %}">Strategy for Norway's Peion Fund Global.</a></h5>
+							<a href="#" class="theme-btn btn-style-eighteen">View more</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block Four -->
+				<div class="news-block-four col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image">
+							<img src="{% static 'siliconvalleynest/images/resource/news-6.jpg' %}" alt="" />
+							<div class="overlay-box">
+								<a href="{% static 'siliconvalleynest/images/resource/news-6.jpg' %}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
+							</div>
+						</div>
+						<div class="lower-content">
+							<ul class="post-meta">
+								<li><span class="fa fa-calendar"></span>September 12, 2019</li>
+								<li><span class="fa fa-user"></span>Admin</li>
+							</ul>
+							<h5><a href="{% url 'blog_single' %}">What we are capable of usually gets discovered.</a></h5>
+							<a href="#" class="theme-btn btn-style-eighteen">View more</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block Four -->
+				<div class="news-block-four col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image">
+							<img src="{% static 'siliconvalleynest/images/resource/news-7.jpg' %}" alt="" />
+							<div class="overlay-box">
+								<a href="{% static 'siliconvalleynest/images/resource/news-7.jpg' %}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
+							</div>
+						</div>
+						<div class="lower-content">
+							<ul class="post-meta">
+								<li><span class="fa fa-calendar"></span>September 12, 2019</li>
+								<li><span class="fa fa-user"></span>Admin</li>
+							</ul>
+							<h5><a href="{% url 'blog_single' %}">Food industry leaders often change their promoters.</a></h5>
+							<a href="#" class="theme-btn btn-style-eighteen">View more</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<!--Styled Pagination-->
+            <ul class="styled-pagination text-center">
+                <li><a href="#" class="active">1</a></li>
+                <li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+                <li class="next"><a href="#"><span class="fa fa-angle-double-right"></span></a></li>
+            </ul>                
+            <!--End Styled Pagination-->
+			
+		</div>
+	</section>
+	<!-- End Blog List Section -->
+	
+	<!-- Call To Action Two -->
+	<section class="call-to-action-two">
+		<div class="auto-container">
+			<div class="clearfix">
+				
+				<div class="pull-left">
+					<h2>Request for <span>quote</span></h2>
+				</div>
+				<div class="pull-right">
+					<a href="{% url 'contact_us' %}" class="theme-btn btn-style-five">Request now <span class="icon fa fa-arrow-right"></span></a>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Call To Action Two -->
+{% endblock %}
