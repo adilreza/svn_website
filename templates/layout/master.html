@@ -40,7 +40,7 @@
             	<div class="clearfix">
                 	
                 	<div class="pull-left logo-box">
-                    	<div class="logo"><a href="{% url 'index' %}"><img src="{% static 'siliconvalleynest/images/logo3.png' %}" alt="" title=""></a></div>
+                    	<div class="logo"><a href="{% url 'index' %}"><img src="{% static 'siliconvalleynest/images/logo-3.png' %}" alt="Silicon Valley Nest" title=""></a></div>
                     </div>
                    	
                    	<div class="nav-outer clearfix">
@@ -60,20 +60,20 @@
 									<li class="current"><a href="{% url 'index' %}">Home</a>
 										
 									</li>
-									<li class="dropdown"><a href="#">About Us</a>
-										<ul>
-											<li><a href="{% url 'about_us' %}">About Us</a></li>
-											<li><a href="{% url 'team' %}">Our Team</a></li>
-											<li><a href="{% url 'case_studies' %}">Case Studies</a></li>
-											<li><a href="{% url 'testimonial' %}">Testimonial</a></li>
-											<li><a href="{% url 'error' %}">Error Page</a></li>
-										</ul>
+									<li><a href="{% url 'svn_about_us' %}">About Us</a>
+										<!--<ul>-->
+											<!--<li><a href="{% url 'svn_about_us' %}">About Us</a></li>-->
+											<!--<li><a href="{% url 'team' %}">Our Team</a></li>-->
+											<!--<li><a href="{% url 'case_studies' %}">Case Studies</a></li>-->
+											<!--<li><a href="{% url 'testimonial' %}">Testimonial</a></li>-->
+											<!--<li><a href="{% url 'error' %}">Error Page</a></li>-->
+										<!--</ul>-->
 									</li>
 									<li class="dropdown"><a href="#">Services</a>
 										<ul>
-											<li><a href="{% url 'services' %}">Services</a></li>
-											<li><a href="{% url 'services_2' %}">Services Two</a></li>
-											<li><a href="{% url 'services_single' %}">Services Single</a></li>
+											<li><a href="{% url 'svn_services' %}">Services</a></li>
+											<li><a href="{% url 'svn_services_2' %}">Services Two</a></li>
+											<li><a href="{% url 'svn_services_single' %}">Services Single</a></li>
 										</ul>
 									</li>
 									<li class="dropdown"><a href="#">Portfolio</a>
@@ -85,14 +85,14 @@
 											<li><a href="{% url 'portfolio_single' %}">Portfolio Single</a></li>
 										</ul>
 									</li>
-									<li class="dropdown"><a href="#">Blog</a>
-										<ul>
-											<li><a href="{% url 'blog' %}">Our Blog</a></li>
-											<li><a href="{% url 'blog_list' %}">Blog List</a></li>
-											<li><a href="{% url 'blog_single' %}">Blog Single</a></li>
-										</ul>
-									</li>
-									<li><a href="{% url 'contact_us' %}">Contact us</a></li>
+									<!--<li class="dropdown"><a href="#">Blog</a>-->
+										<!--<ul>-->
+											<!--<li><a href="{% url 'blog' %}">Our Blog</a></li>-->
+											<!--<li><a href="{% url 'blog_list' %}">Blog List</a></li>-->
+											<!--<li><a href="{% url 'blog_single' %}">Blog Single</a></li>-->
+										<!--</ul>-->
+									<!--</li>-->
+									<li><a href="{% url 'svn_contact_us' %}">Contact us</a></li>
 								</ul>
 							</div>
 							
@@ -133,20 +133,20 @@
                                 <li class="current"><a href="{% url 'index' %}">Home</a>
 
 								</li>
-								<li class="dropdown"><a href="#">About Us</a>
-									<ul>
-										<li><a href="{% url 'about_us' %}">About Us</a></li>
-										<li><a href="{% url 'team' %}">Our Team</a></li>
-										<li><a href="{% url 'case_studies' %}">Case Studies</a></li>
-										<li><a href="{% url 'testimonial' %}">Testimonial</a></li>
-										<li><a href="{% url 'error' %}">Error Page</a></li>
-									</ul>
+								<li><a href="{% url 'svn_about_us' %}">About Us</a>
+									<!--<ul>-->
+										<!--<li><a href="{% url 'svn_about_us' %}">About Us</a></li>-->
+										<!--<li><a href="{% url 'team' %}">Our Team</a></li>-->
+										<!--<li><a href="{% url 'case_studies' %}">Case Studies</a></li>-->
+										<!--<li><a href="{% url 'testimonial' %}">Testimonial</a></li>-->
+										<!--<li><a href="{% url 'error' %}">Error Page</a></li>-->
+									<!--</ul>-->
 								</li>
 								<li class="dropdown"><a href="#">Services</a>
 									<ul>
-										<li><a href="{% url 'services' %}">Services</a></li>
-										<li><a href="{% url 'services_2' %}">Services Two</a></li>
-										<li><a href="{% url 'services_single' %}">Services Single</a></li>
+										<li><a href="{% url 'svn_services' %}">Services</a></li>
+										<li><a href="{% url 'svn_services_2' %}">Services Two</a></li>
+										<li><a href="{% url 'svn_services_single' %}">Services Single</a></li>
 									</ul>
 								</li>
 								<li class="dropdown"><a href="#">Portfolio</a>
@@ -158,14 +158,14 @@
 										<li><a href="{% url 'portfolio_single' %}">Portfolio Single</a></li>
 									</ul>
 								</li>
-								<li class="dropdown"><a href="#">Blog</a>
-									<ul>
-										<li><a href="{% url 'blog' %}">Our Blog</a></li>
-										<li><a href="{% url 'blog_list' %}">Blog List</a></li>
-										<li><a href="{% url 'blog_single' %}">Blog Single</a></li>
-									</ul>
-								</li>
-								<li><a href="{% url 'contact_us' %}">Contact us</a></li>
+								<!--<li class="dropdown"><a href="#">Blog</a>-->
+									<!--<ul>-->
+										<!--<li><a href="{% url 'blog' %}">Our Blog</a></li>-->
+										<!--<li><a href="{% url 'blog_list' %}">Blog List</a></li>-->
+										<!--<li><a href="{% url 'blog_single' %}">Blog Single</a></li>-->
+									<!--</ul>-->
+								<!--</li>-->
+								<li><a href="{% url 'svn_contact_us' %}">Contact us</a></li>
                             </ul>
                         </div>
                     </nav><!-- Main Menu End-->
@@ -200,16 +200,16 @@
 							<div class="separator separat-line bg-white w3"></div>
 							<ul class="list-2">
                                 <li><a href="{% url 'index' %}">Home</a></li>
-                                <li><a href="{% url 'about_us' %}">About us </a></li>
+                                <li><a href="{% url 'svn_about_us' %}">About us </a></li>
                                 
 								<li><a href="{% url 'portfolio_2' %}">Portfolio</a></li>
-                                <li><a href="{% url 'contact_us' %}">Contact Us</a></li>
-                                <li><a href="{% url 'blog' %}">Blogs</a></li>
+                                <li><a href="{% url 'svn_contact_us' %}">Contact Us</a></li>
+                                <!--<li><a href="{% url 'blog' %}">Blogs</a></li>-->
                                 <li><a href="{% url 'testimonial' %}">Testimonials</a></li>
                              
 								<li><a href="{% url 'portfolio_3' %}">Portfolio</a></li>
-                                <li><a href="{% url 'contact_us' %}">Contact Us</a></li>
-                                <li><a href="{% url 'blog' %}">Blogs</a></li>
+                                <li><a href="{% url 'svn_contact_us' %}">Contact Us</a></li>
+                                <!--<li><a href="{% url 'blog' %}">Blogs</a></li>-->
                                 <li><a href="{% url 'testimonial' %}">Testimonials</a></li>
                             </ul>
                         </div>
@@ -220,7 +220,7 @@
                         <div class="widget recent-posts-entry">
 							<div class="widget-post-bx">
 								<div class="widget-post clearfix">
-									<div class="post-media"> <img src="{% static 'siliconvalleynest/images/company_svn/pic1.jpg' %}" alt="" width="200" height="143"> </div>
+									<div class="post-media"> <img src="{% static 'siliconvalleynest/images/gallery/30.jpg' %}" alt="" width="200" height="143"> </div>
 									<div class="post-info">
 										<div class="post-header">
 											<h6 class="post-title"><a href="#">US Stocks Are Expensive</a></h6>
@@ -234,7 +234,7 @@
 									</div>
 								</div>
 								<div class="widget-post clearfix">
-									<div class="post-media"> <img src="{% static 'siliconvalleynest/images/company_svn/pic1.jpg' %}" alt="" width="200" height="160"> </div>
+									<div class="post-media"> <img src="{% static 'siliconvalleynest/images/images/gallery/30.jpg' %}" alt="" width="200" height="160"> </div>
 									<div class="post-info">
 										<div class="post-header">
 											<h6 class="post-title"><a href="#">US Stocks Are Expensive</a></h6>
@@ -248,7 +248,7 @@
 									</div>
 								</div>
 								<div class="widget-post clearfix">
-									<div class="post-media"> <img src="{% static 'siliconvalleynest/images/company_svn/pic1.jpg' %}" alt="" width="200" height="160"> </div>
+									<div class="post-media"> <img src="{% static 'siliconvalleynest/images/images/gallery/30.jpg' %}" alt="" width="200" height="160"> </div>
 									<div class="post-info">
 										<div class="post-header">
 											<h6 class="post-title"><a href="#">US Stocks Are Expensive</a></h6>
@@ -341,8 +341,8 @@
                     <div class="col-md-6 col-sm-6 text-right "> 
 						<div class="widget-link "> 
 							<ul>
-								<li><a href="help-desk.html"> Help Desk</a></li> 
-								<li><a href="privacy-policy.html"> Privacy Policy</a></li> 
+								<li><a href="#"> Help Desk</a></li>
+								<li><a href="#"> Privacy Policy</a></li>
 							</ul>
 						</div>
 					</div>

@@ -4,21 +4,21 @@ class index(TemplateView):
     template_name = 'main_home_page.html'
 
 
-class services(TemplateView):
+class svn_services(TemplateView):
     template_name ='services.html'
 
-class services_2(TemplateView):
+class svn_services_2(TemplateView):
     template_name ='services_2.html'
 
-class services_single(TemplateView):
+class svn_services_single(TemplateView):
     template_name ='services_single.html'
 
 
 
-class about_us(TemplateView):
+class svn_about_us(TemplateView):
     template_name ='about_us.html'
 
-class contact_us(TemplateView):
+class svn_contact_us(TemplateView):
     template_name ='contact.html'
 
 class team(TemplateView):

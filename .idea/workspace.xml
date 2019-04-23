@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="67e6180d-3bbe-4357-893d-99ed6490b259" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/svn_main_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/svn_main_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svn_main_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/svn_main_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/master.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/master.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/master2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/master2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main_home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main_home_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/services_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/services_single.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services_single.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svn_main_app/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svn_main_app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_home_page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/main_home_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="827" column="21" selection-start-line="827" selection-start-column="13" selection-end-line="827" selection-end-column="21" />
+              <folding>
+                <element signature="e#347#434#0" expanded="true" />
+                <element signature="e#976#1063#0" expanded="true" />
+                <element signature="e#39235#39325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+              <folding>
+                <element signature="e#208#294#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/layout/master2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="99" column="91" selection-start-line="99" selection-start-column="83" selection-end-line="99" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/layout/master.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="73" column="77" selection-start-line="73" selection-start-column="69" selection-end-line="73" selection-end-column="77" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services_2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/services_2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="172" column="14" lean-forward="true" selection-start-line="172" selection-start-column="14" selection-end-line="172" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services_single.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/services_single.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="78" column="63" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/services.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="452" column="39" selection-start-line="452" selection-start-column="32" selection-end-line="452" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>svn_ser</find>
+      <find>about</find>
+      <find>about_us</find>
+      <find>svn_services</find>
+      <find>services_2</find>
+      <find>services</find>
+      <find>contact</find>
+      <find>contact_us</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/about_us.html" />
+        <option value="$PROJECT_DIR$/templates/contact.html" />
+        <option value="$PROJECT_DIR$/templates/layout/master.html" />
+        <option value="$PROJECT_DIR$/templates/services_2.html" />
+        <option value="$PROJECT_DIR$/templates/layout/master2.html" />
+        <option value="$PROJECT_DIR$/svn_main_app/urls.py" />
+        <option value="$PROJECT_DIR$/svn_main_app/views.py" />
+        <option value="$PROJECT_DIR$/templates/main_home_page.html" />
+        <option value="$PROJECT_DIR$/templates/services.html" />
+        <option value="$PROJECT_DIR$/templates/services_single.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="svn_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svn_website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svn_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svn_website" type="462c0819:PsiDirectoryNode" />
+              <item name="svn_main_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svn_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svn_website" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svn_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svn_website" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67e6180d-3bbe-4357-893d-99ed6490b259" name="Default" comment="" />
+      <created>1555135557590</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555135557590</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/svn_main_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog_single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main_home_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16507">
+          <caret line="971" column="122" selection-start-line="971" selection-start-column="122" selection-end-line="971" selection-end-column="122" />
+          <folding>
+            <element signature="e#347#434#0" expanded="true" />
+            <element signature="e#976#1063#0" expanded="true" />
+            <element signature="e#39235#39325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/about_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="132" column="29" lean-forward="true" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
+          <folding>
+            <element signature="e#208#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="121" selection-start-line="42" selection-start-column="121" selection-end-line="42" selection-end-column="121" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/master2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3485">
+          <caret line="205" column="41" lean-forward="true" selection-start-line="199" selection-start-column="36" selection-end-line="205" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siliconvalleynest/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_main_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_main_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_main_app/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_main_app/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_main_app/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_main_app/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_main_app/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_main_app/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_main_app/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_main_app/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siliconvalleynest/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog_single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/portfolio_masonry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="71" column="47" lean-forward="true" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/about_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="e#208#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/services_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="172" column="14" lean-forward="true" selection-start-line="172" selection-start-column="14" selection-end-line="172" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/master2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="99" column="91" selection-start-line="99" selection-start-column="83" selection-end-line="99" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_main_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svn_main_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="73" column="77" selection-start-line="73" selection-start-column="69" selection-end-line="73" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main_home_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="827" column="21" selection-start-line="827" selection-start-column="13" selection-end-line="827" selection-end-column="21" />
+          <folding>
+            <element signature="e#347#434#0" expanded="true" />
+            <element signature="e#976#1063#0" expanded="true" />
+            <element signature="e#39235#39325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="452" column="39" selection-start-line="452" selection-start-column="32" selection-end-line="452" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/services_single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="78" column="63" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

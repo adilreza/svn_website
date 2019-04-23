@@ -126,7 +126,7 @@
 			</div>
 			<!-- Services Text -->
 			<div class="services-text">
-				<div class="text">We are very happy to give the best service.  <a href="services.html">Let’s view all services</a></div>
+				<div class="text">We are very happy to give the best service.  <a href="{% url 'svn_services' %}">Let’s view all services</a></div>
 			</div>
 			
 		</div>
@@ -155,7 +155,7 @@
 				<!-- Image Column -->
 				<div class="image-column col-lg-6 col-md-12 col-sm-12">
 					<div class="image">
-						<img src="images/resource/about-1.png" alt="" />
+						<img src="{% static 'siliconvalleynest/images/resource/about-2.jpg' %}" alt="" />
 					</div>
 				</div>
 				
@@ -167,7 +167,7 @@
 	<!-- Companies Section -->
 	<section class="companies-section">
 		<!-- Title Box -->
-		<div class="title-box" style="background-image:url(images/background/4.jpg)">
+		<div class="title-box" style="background-image:url({% static 'siliconvalleynest/images/background/10.jpg' %})">
 			<div class="auto-container">
 				<!-- Sec Title -->
 				<div class="sec-title light centered">
@@ -659,7 +659,7 @@
 	
 	<!-- Testimonial Section Two -->
 	<section class="testimonial-section-two">
-		<div class="image-layer" style="background-image:url(images/background/5.jpg)"></div>
+		<div class="image-layer" style="background-image:url({% static 'siliconvalleynest/images/background/5.jpg' %})"></div>
 		<div class="auto-container">
 			<h2>Some from out <span>clients</span></h2>
 			<div class="testimonial-carousel-two owl-carousel owl-theme">
@@ -672,7 +672,7 @@
 							<div class="image-column col-lg-3 col-md-4 col-sm-12">
 								<div class="inner-column">
 									<div class="image">
-										<img src="images/resource/author-5.jpg" alt="" />
+										<img src="{% static 'siliconavlleynest/images/resource/author-5.jpg' %}" alt="" />
 									</div>
 								</div>
 							</div>
@@ -696,7 +696,7 @@
 							<div class="image-column col-lg-3 col-md-4 col-sm-12">
 								<div class="inner-column">
 									<div class="image">
-										<img src="images/resource/author-5.jpg" alt="" />
+										<img src="{% static 'siliconvalleynest/images/resource/author-5.jpg' %}" alt="" />
 									</div>
 								</div>
 							</div>
@@ -720,7 +720,7 @@
 							<div class="image-column col-lg-3 col-md-4 col-sm-12">
 								<div class="inner-column">
 									<div class="image">
-										<img src="images/resource/author-5.jpg" alt="" />
+										<img src="{% static 'siliconvalleynest/images/resource/author-5.jpg' %}" alt="" />
 									</div>
 								</div>
 							</div>
@@ -828,15 +828,15 @@
 	<!-- End Services Section Six -->
 	
 	<!-- Call To Action -->
-	<section class="call-to-action" style="background-image:url(images/background/3.jpg)">
+	<section class="call-to-action" style="background-image:url({% static 'siliconvalleynest/images/background/3.jpg' %})">
 		<div class="auto-container">
 			<h2>Have a great opportunity to <br> manage your <span>finance</span></h2>
 			<div class="btns-box">
-				<a href="#"><img src="images/icons/app-btn.png" alt="" /></a>
-				<a href="#"><img src="images/icons/google-btn.png" alt="" /></a>
+				<a href="#"><img src="{% static 'siliconvalleynest/images/icons/app-btn.png' %}" alt="" /></a>
+				<a href="#"><img src="{% static 'siliconvalleynest/images/icons/google-btn.png' %}" alt="" /></a>
 			</div>
 			<div class="image wow jello" data-wow-delay="0ms" data-wow-duration="1500ms">
-				<img src="images/resource/app-mobile.png" alt="" />
+				<img src="{% static 'siliconvalleynest/images/resource/app-mobile.png' %}" alt="" />
 			</div>
 		</div>
 	</section>
@@ -860,9 +860,9 @@
 				<div class="news-block-four col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 						<div class="image">
-							<img src="images/resource/news-4.jpg" alt="" />
+							<img src="{% static 'siliconvalleynest/images/resource/news-4.jpg' %}" alt="" />
 							<div class="overlay-box">
-								<a href="images/resource/news-4.jpg" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
+								<a href="{% static 'siliconvalleynest/images/resource/news-4.jpg' %}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
 							</div>
 						</div>
 						<div class="lower-content">
@@ -870,7 +870,7 @@
 								<li><span class="fa fa-calendar"></span>September 12, 2019</li>
 								<li><span class="fa fa-user"></span>Admin</li>
 							</ul>
-							<h5><a href="blog-single.html">Strategy for Norway's Peion Fund Global.</a></h5>
+							<h5><a href="{% url 'svn_services' %}">Strategy for Norway's Peion Fund Global.</a></h5>
 							<a href="#" class="theme-btn btn-style-eighteen">View more</a>
 						</div>
 					</div>
@@ -880,9 +880,9 @@
 				<div class="news-block-four col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
 						<div class="image">
-							<img src="images/resource/news-5.jpg" alt="" />
+							<img src="{% static 'siliconvalleynest/images/resource/news-5.jpg' %}" alt="" />
 							<div class="overlay-box">
-								<a href="images/resource/news-5.jpg" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
+								<a href="{% static 'siliconvalleynest/images/resource/news-5.jpg' %}" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
 							</div>
 						</div>
 						<div class="lower-content">
@@ -900,7 +900,7 @@
 				<div class="news-block-four col-lg-4 col-md-6 col-sm-12">
 					<div class="inner-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
 						<div class="image">
-							<img src="images/resource/news-6.jpg" alt="" />
+							<img src="{% static 'siliconvalleynest/images/resource/news-6.jpg' %}" alt="" />
 							<div class="overlay-box">
 								<a href="images/resource/news-6.jpg" data-fancybox="news" data-caption="" class="plus flaticon-plus-symbol"></a>
 							</div>
@@ -928,18 +928,18 @@
 			<div class="carousel-outer">
                 <!--Sponsors Slider-->
                 <ul class="sponsors-carousel owl-carousel owl-theme">
-                    <li><div class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/6.png" alt=""></a></div></li>
-					<li><div class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></div></li>
-                    <li><div class="image-box"><a href="#"><img src="images/clients/6.png" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{% static 'siliconvalleynest/images/clients/1.png' %}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{% static 'siliconvalleynest/images/clients/2.png' %}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{% static 'siliconvalleynest/images/clients/3.png' %}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{% static 'siliconvalleynest/images/clients/4.png' %}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{% static 'siliconvalleynest/images/clients/5.png' %}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{% static 'siliconvalleynest/images/clients/6.png' %}" alt=""></a></div></li>
+					<li><div class="image-box"><a href="#"><img src="{% static 'siliconvalleynest/images/clients/1.png' %}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{% static 'siliconvalleynest/images/clients/2.png' %}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{% static 'siliconvalleynest/images/clients/3.png' %}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{% static 'siliconvalleynest/images/clients/4.png' %}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{% static 'siliconvalleynest/images/clients/5.png' %}" alt=""></a></div></li>
+                    <li><div class="image-box"><a href="#"><img src="{% static 'siliconvalleynest/images/clients/6.png' %}" alt=""></a></div></li>
                 </ul>
             </div>
 			
@@ -969,7 +969,7 @@
                     </div>
                 </div>
             	<!--Right Column-->
-                <div class="right-column" style="background-image:url(images/resource/image-1.jpg)">
+                <div class="right-column" style="background-image:url({% static 'siliconvalleynest/images/resource/about-2.jpg' %})">
                 	<div class="content">
                     	<h2>Request for <span>quote</span></h2>
                         <div class="text">The argument in favor of using filler text goes something like this: If you use real content in the design process.</div>

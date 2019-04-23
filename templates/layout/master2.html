@@ -92,14 +92,14 @@
 									<li class=""><a href="{% url 'index' %}">Home</a>
 										
 									</li>
-									<li><a href="{% url 'about_us' %}">About Us</a>
+									<li><a href="{% url 'svn_about_us' %}">About Us</a>
 
 									</li>
 									<li class="current dropdown"><a href="#">Services</a>
 										<ul>
-											<li><a href="{% url 'services' %}">Services</a></li>
-											<li><a href="{% url 'services_2' %}">Services Two</a></li>
-											<li><a href="{% url 'services_single' %}">Services Single</a></li>
+											<li><a href="{% url 'svn_services' %}">Services</a></li>
+											<li><a href="{% url 'svn_services_2' %}">Services Two</a></li>
+											<li><a href="{% url 'svn_services_single' %}">Services Single</a></li>
 										</ul>
 									</li>
 									<li class="dropdown"><a href="#">Portfolio</a>
@@ -111,14 +111,14 @@
 											<li><a href="{% url 'portfolio_single' %}">Portfolio Single</a></li>
 										</ul>
 									</li>
-									<li class="dropdown"><a href="#">Blog</a>
-										<ul>
-											<li><a href="{% url 'blog' %}">Our Blog</a></li>
-											<li><a href="{% url 'blog_list' %}">Blog List</a></li>
-											<li><a href="{% url 'blog_single' %}">Blog Single</a></li>
-										</ul>
-									</li>
-									<li><a href="{% url 'contact_us' %}">Contact us</a></li>
+									<!--<li class="dropdown"><a href="#">Blog</a>-->
+										<!--<ul>-->
+											<!--<li><a href="{% url 'blog' %}">Our Blog</a></li>-->
+											<!--<li><a href="{% url 'blog_list' %}">Blog List</a></li>-->
+											<!--<li><a href="{% url 'blog_single' %}">Blog Single</a></li>-->
+										<!--</ul>-->
+									<!--</li>-->
+									<li><a href="{% url 'svn_contact_us' %}">Contact us</a></li>
 								</ul>
 							</div>
 							
@@ -178,14 +178,14 @@
                                 <li class="current"><a href="{% url 'index' %}">Home</a>
 									
 								</li>
-								<li ><a href="{% url 'about_us' %}">About Us</a>
+								<li ><a href="{% url 'svn_about_us' %}">About Us</a>
 
 								</li>
 								<li class="current dropdown"><a href="#">Services</a>
 									<ul>
-										<li><a href="{% url 'services' %}">Services</a></li>
-										<li><a href="{% url 'services_2' %}">Services Two</a></li>
-										<li><a href="{% url 'services_single' %}">Services Single</a></li>
+										<li><a href="{% url 'svn_services' %}">Services</a></li>
+										<li><a href="{% url 'svn_services_2' %}">Services Two</a></li>
+										<li><a href="{% url 'svn_services_single' %}">Services Single</a></li>
 									</ul>
 								</li>
 								<li class="dropdown"><a href="#">Portfolio</a>
@@ -197,14 +197,14 @@
 										<li><a href="{% url 'portfolio_single' %}">Portfolio Single</a></li>
 									</ul>
 								</li>
-								<li class="dropdown"><a href="#">Blog</a>
-									<ul>
-										<li><a href="{% url 'blog' %}">Our Blog</a></li>
-										<li><a href="{% url 'blog_list' %}">Blog List</a></li>
-										<li><a href="{% url 'blog_single' %}">Blog Single</a></li>
-									</ul>
-								</li>
-								<li><a href="{% url 'contact_us' %}">Contact us</a></li>
+								<!--<li class="dropdown"><a href="#">Blog</a>-->
+									<!--<ul>-->
+										<!--<li><a href="{% url 'blog' %}">Our Blog</a></li>-->
+										<!--<li><a href="{% url 'blog_list' %}">Blog List</a></li>-->
+										<!--<li><a href="{% url 'blog_single' %}">Blog Single</a></li>-->
+									<!--</ul>-->
+								<!--</li>-->
+								<li><a href="{% url 'svn_contact_us' %}">Contact us</a></li>
                             </ul>
                         </div>
                     </nav><!-- Main Menu End-->
@@ -261,11 +261,11 @@
 									<h4>Links</h4>
 									<ul class="list-link">
 										<li><a href="{% url 'index' %}">Home</a></li>
-										<li><a href="{% url 'services' %}">Services</a></li>
-										<li><a href="{% url 'about_us' %}">About us</a></li>
+										<li><a href="{% url 'svn_services' %}">Services</a></li>
+										<li><a href="{% url 'svn_about_us' %}">About us</a></li>
 										<li><a href="">Testimonials</a></li>
 										<li><a href="">News</a></li>
-										<li><a href="{% url 'contact_us' %}">Contact</a></li>
+										<li><a href="{% url 'svn_contact_us' %}">Contact</a></li>
 									</ul>
 								</div>
 							</div>
@@ -282,7 +282,7 @@
                                 <div class="footer-widget links-widget">
 									<h4>Support</h4>
 									<ul class="list-link">
-										<li><a href="{% url 'contact_us' %}">Contact Us</a></li>
+										<li><a href="{% url 'svn_contact_us' %}">Contact Us</a></li>
 										<li><a href="">Submit a Ticket</a></li>
 										<li><a href="">Visit Knowledge Base</a></li>
 										<li><a href="">Support System</a></li>

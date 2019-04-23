@@ -5,12 +5,12 @@ from . import views
 urlpatterns = [
     path('', views.index.as_view(), name='index'),
 
-    path('svn_services', views.services.as_view(), name='services'),
-    path('svn_services_2', views.services_2.as_view(), name='services_2'),
-    path('svn_services_single', views.services_single.as_view(), name='services_single'),
+    path('svn_services', views.svn_services.as_view(), name='svn_services'),
+    path('svn_services_2', views.svn_services_2.as_view(), name='svn_services_2'),
+    path('svn_services_single', views.svn_services_single.as_view(), name='svn_services_single'),
 
-    path('about_us', views.about_us.as_view(), name='about_us'),
-    path('contact_us', views.contact_us.as_view(), name='contact_us'),
+    path('svn_about_us', views.svn_about_us.as_view(), name='svn_about_us'),
+    path('svn_contact_us', views.svn_contact_us.as_view(), name='svn_contact_us'),
     path('team', views.team.as_view(), name='team'),
     path('case_studies', views.case_studies.as_view(), name='case_studies'),
     path('testimonial', views.testimonial.as_view(), name='testimonial'),

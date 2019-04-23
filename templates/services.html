@@ -16,7 +16,7 @@
 				<h1>Services <span>style 1</span></h1>
 				<ul class="page-breadcrumb">
 					<li><a href="{% url 'index' %}">Home</a></li>
-					<li><a href="{% url 'services' %}">Services</a></li>
+					<li><a href="{% url 'svn_services' %}">Services</a></li>
 				</ul>
 			</div>
         </div>
@@ -162,7 +162,7 @@
 										<div class="icon-box">
 											<span class="icon flaticon-statistics-1"></span>
 										</div>
-										<h6><a href="services-single.html">Business Strategy and <br> Planning</a></h6>
+										<h6><a href="#">Business Strategy and <br> Planning</a></h6>
 										<div class="text">The argument in favor of the using filler text goes some of thing like this</div>
 										<a class="read-more" href="services-single.html">Let’s start <span class="fa fa-angle-double-right"></span></a>
 									</div>
@@ -193,7 +193,7 @@
 										<div class="icon-box">
 											<span class="icon flaticon-target-1"></span>
 										</div>
-										<h6><a href="{% url 'services_single' %}">Market Research and Business Planning</a></h6>
+										<h6><a href="{% url 'svn_services_single' %}">Market Research and Business Planning</a></h6>
 										<div class="text">The argument in favor of the using filler text goes some of thing like this</div>
 										<a class="read-more" href="services-single.html">Let’s start <span class="fa fa-angle-double-right"></span></a>
 									</div>
@@ -224,9 +224,9 @@
 										<div class="icon-box">
 											<span class="icon flaticon-bank-building"></span>
 										</div>
-										<h6><a href="{% url 'services_single' %}">Bank Investment and <br> Savings</a></h6>
+										<h6><a href="{% url 'svn_services_single' %}">Bank Investment and <br> Savings</a></h6>
 										<div class="text">The argument in favor of the using filler text goes some of thing like this</div>
-										<a class="read-more" href="{% url 'services_single' %}">Let’s start <span class="fa fa-angle-double-right"></span></a>
+										<a class="read-more" href="{% url 'svn_services_single' %}">Let’s start <span class="fa fa-angle-double-right"></span></a>
 									</div>
 								</div>
 							</div>
@@ -451,7 +451,7 @@
 						<div class="quote-form">
 								
 							<!--Contact Form-->
-							<form method="post" action="{% url 'contact_us' %}">
+							<form method="post" action="{% url 'svn_contact_us' %}">
 								<div class="row clearfix">
 								
 									<div class="form-group col-lg-6 col-md-6 col-sm-12">
